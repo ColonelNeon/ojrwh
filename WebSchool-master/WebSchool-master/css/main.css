@@ -1,0 +1,46 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    .parra {
+    grid-area: 1 / 1 / 16 / 16;
+    margin: -8px;
+    background-image: url("https://wallpaperaccess.com/full/1163912.jpg");
+    height: 1800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    
+    }
+    .nav {
+    grid-area: 1 / 1 / 2 / 16;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    margin: -8px;
+    }
+
+    .cont {
+    grid-area: 8 / 1 / 16 / 16;
+    background: white;
+    margin: -8px;
+    }
+    .contright {
+    grid-area: 9 / 10 / 15 / 15;
+    }
+    .contleft {
+    grid-area: 9 / 2 / 15 / 7;
+    }
+    .midtitle {
+        grid-area: 1 / 1 / 16 / 16;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    
